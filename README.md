@@ -8,6 +8,20 @@ Think of it as a **mission briefing for your AI.**
 
 Using a simple but strict syntax (`Key=Value`, `Section:Topic`), a dropin transforms a generic, stateless AI into a specialized assistant that is already up to speed on your project, persona, or specific problem, saving you the time and frustration of repeating yourself.
 
+## ⚠️ A Critical Security Warning
+
+Dropins are powerful because they package context, but this means they can easily contain **sensitive or private information**.
+
+-   Project details
+-   Personal data (names, emails)
+-   Confidential ideas
+-   Client information
+
+**Always sanitize your dropins before sharing them publicly.** Replace any sensitive information with generic placeholders like `[Project_Name]` or `[Client_Email]`. Treat a dropin with the same security caution as you would an email or a private document.
+
+
+
+
 ## The Problem it Solves: AI Amnesia
 
 Modern Large Language Models (LLMs) are incredibly powerful, but they have a fundamental limitation: they are **stateless**. This means they have no memory of past conversations. Every time you start a new chat, the AI is a blank slate.
